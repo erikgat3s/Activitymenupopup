@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="103dp"
+        android:layout_height="33dp"
+        android:text="@string/lDaftar"
+        android:textSize="15pt"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="84dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edNama"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/enama"
+        android:inputType="textPersonName"
+        android:text="@string/enama"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="155dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/ealamat"
+        android:inputType="textMultiLine|text"
+        android:text="@string/ealamat"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="232dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/EdEmail"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/eemail"
+        android:inputType="textPersonName|textEmailAddress"
+        android:text="@string/eemail"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="312dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edrepas"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/erepass"
+        android:inputType="textPassword"
+        android:text="@string/erepass"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="476dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/febSimpan"
+        android:layout_width="76dp"
+        android:layout_height="64dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_save"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="549dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edPass"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:hint="@string/epass"
+        android:inputType="textPassword"
+        android:text="@string/epass"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="397dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
