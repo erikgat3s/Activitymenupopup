@@ -8,60 +8,77 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="103dp"
-        android:layout_height="33dp"
+        android:layout_width="102dp"
+        android:layout_height="43dp"
         android:text="@string/lDaftar"
         android:textSize="15pt"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/edNama"
         android:layout_width="match_parent"
-        android:layout_height="38dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/enama"
         android:inputType="textPersonName"
         android:text="@string/enama"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="155dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/edAlamat"
         android:layout_width="match_parent"
-        android:layout_height="38dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/ealamat"
         android:inputType="textMultiLine|text"
         android:text="@string/ealamat"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/EdEmail"
         android:layout_width="match_parent"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/eemail"
         android:inputType="textPersonName|textEmailAddress"
         android:text="@string/eemail"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="312dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/edrepas"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/erepass"
         android:inputType="textPassword"
         android:text="@string/erepass"
-        tools:layout_editor_absoluteX="-6dp"
-        tools:layout_editor_absoluteY="476dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -69,21 +86,27 @@
         android:layout_width="76dp"
         android:layout_height="64dp"
         android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757"
         app:srcCompat="@android:drawable/ic_menu_save"
-        tools:layout_editor_absoluteX="299dp"
-        tools:layout_editor_absoluteY="549dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/edPass"
         android:layout_width="match_parent"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/epass"
         android:inputType="textPassword"
         android:text="@string/epass"
-        tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="397dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
